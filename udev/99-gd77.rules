@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="15a2", ENV{ID_MODEL_ID}=="0073", MODE="0660", GROUP="dialout"
