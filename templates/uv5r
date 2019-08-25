@@ -1,0 +1,4 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,Mode,TStep,Skip,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+{% for channel in channels %}
+{{ loop.index }},{{ channel.frequency }},{{ channel.duplex }},{{ channel.offset }},{{ channel.tone }},{{ channel.rtonefreq }},{{ channel.ctonefreq }},{{ channel.dtcspolarity }},{{ channel.mode }},{{ channel.tstep }},{{ channel.skip }},{{ channel.comment }},{{ channel.urcall }},{{ channel.rpt1call }},{{ channel.rpt2call }},{{ channel.dvcode }}
+{% endfor %}

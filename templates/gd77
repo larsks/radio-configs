@@ -1,0 +1,24 @@
+#
+# Configuration generated 2019/08/24 by dmrconfig, version 1.1.232
+#
+Radio: Radioddity GD-77
+
+# Table of digital channels.
+# 1) Channel number: 1-1024
+# 2) Name: up to 16 characters, use '_' instead of space
+# 3) Receive frequency in MHz
+# 4) Transmit frequency or +/- offset in MHz
+# 5) Transmit power: High, Low
+# 6) Scan list: - or index in Scanlist table
+# 7) Transmit timeout timer in seconds: 0, 15, 30, 45... 555
+# 8) Receive only: -, +
+# 9) Admit criteria: -, Free, Color
+# 10) Color code: 0, 1, 2, 3... 15
+# 11) Time slot: 1 or 2
+# 12) Receive group list: - or index in Grouplist table
+# 13) Contact for transmit: - or index in Contacts table
+#
+Digital Name             Receive   Transmit Power Scan TOT RO Admit  Color Slot RxGL TxContact
+{% for channel in channels if channel.mode == "DMR" %}
+  {{ loop.index }} {{ channel.name }} {{ channel.frequency }} {{ channel.frequency + channel.offset }}
+{% endfor %}
