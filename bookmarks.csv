@@ -1,0 +1,564 @@
+# Tag name          ;  color
+fire_dispatch       ; #c0c0c0
+ems_dispatch        ; #c0c0c0
+pager               ; #c0c0c0
+weather             ; #c0c0c0
+trs                 ; #c0c0c0
+schools             ; #c0c0c0
+repeater            ; #c0c0c0
+fire-tac            ; #c0c0c0
+amateur             ; #c0c0c0
+medical             ; #c0c0c0
+business            ; #c0c0c0
+dmr                 ; #c0c0c0
+media               ; #c0c0c0
+ems-tac             ; #c0c0c0
+law_talk            ; #c0c0c0
+broadcast           ; #c0c0c0
+fire-talk           ; #c0c0c0
+aircraft            ; #c0c0c0
+law_dispatch        ; #c0c0c0
+deprecated          ; #c0c0c0
+belmont             ; #c0c0c0
+law_tac             ; #c0c0c0
+ems-talk            ; #c0c0c0
+multi-dispatch      ; #c0c0c0
+transportation      ; #c0c0c0
+corrections         ; #c0c0c0
+emergency_ops       ; #c0c0c0
+amateur             ; #c0c0c0
+public_works        ; #c0c0c0
+federal             ; #c0c0c0
+Untagged            ; #c0c0c0
+telemetry           ; #c0c0c0
+cb                  ; #c0c0c0
+gmrs                ; #c0c0c0
+security            ; #c0c0c0
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+    26965000; CB 1                     ; AM                  ;      10000; cb
+    26975000; CB 2                     ; AM                  ;      10000; cb
+    26985000; CB 3                     ; AM                  ;      10000; cb
+    27005000; CB 4                     ; AM                  ;      10000; cb
+    27015000; CB 5                     ; AM                  ;      10000; cb
+    27025000; CB 6                     ; AM                  ;      10000; cb
+    27035000; CB 7                     ; AM                  ;      10000; cb
+    27055000; CB 8                     ; AM                  ;      10000; cb
+    27065000; CB 9                     ; AM                  ;      10000; cb
+    27075000; CB 10                    ; AM                  ;      10000; cb
+    29680000; Marlboro East Repeaters  ; Narrow FM           ;      10000; amateur
+    33439999; County Fire Low Band Ch. 2 District 6 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-talk
+    33479999; Fire Reserve Tewksbury   ; Narrow FM           ;      10000; fire-tac
+    33660000; Fire Dispatch (Tone Outs Only) Carlisle; Narrow FM           ;      10000; fire_dispatch
+    33660000; County Fire Low Band Ch. 1 Primary District 6 Fire Mutual Aid Association; Narrow FM           ;      10000; fire_dispatch
+    33660000; County - North Middlesex Fire Westford; Narrow FM           ;      10000; fire-talk
+    33760000; Fire Paging Chelmsford   ; Narrow FM           ;      10000; fire_dispatch
+    33760000; County Fire Low Band Ch. 3 Fireground District 6 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+    33980000; D14 - District Wide "Low 33" District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+    43760000; Dee Bus Service, Inc. Tyngsborough; Narrow FM           ;      10000; transportation
+    44600000; Dee Bus Service, Inc. Tyngsborough; Narrow FM           ;      10000; transportation
+    46360000; D14 - District Wide "Low 46" District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+    46400000; Fire Department - Former CH2 Stow; Narrow FM           ;      10000; fire-tac
+    46500000; Fire Department - Low Band Boxborough; Narrow FM           ;      10000; fire_dispatch
+    46500000; Fire Department - Former Main Stow; Narrow FM           ;      10000; fire_dispatch
+    46540000; DPW Shirley              ; Narrow FM           ;      10000; public_works
+    47500000; School Buses Billerica   ; Narrow FM           ;      10000; schools
+    47540000; School Buses Billerica   ; Narrow FM           ;      10000; schools
+    48380000; Electic and Water Department Littleton; Narrow FM           ;      10000; public_works
+    53810000; Marlboro East Repeaters  ; Narrow FM           ;      10000; amateur
+   118249400; Voice                    ; Narrow FM           ;      10000; Untagged
+   118500000; Hanscom Tower Laurence G. Hanscom Field Airport (BED); Narrow FM           ;      10000; aircraft
+   121700000; Hanscom Ground Laurence G. Hanscom Field Airport (BED); Narrow FM           ;      10000; aircraft
+   121850000; Hanscom Clearance/Delivery Laurence G. Hanscom Field Airport (BED); Narrow FM           ;      10000; aircraft
+   124600000; Hanscom ATIS Laurence G. Hanscom Field Airport (BED); Narrow FM           ;      10000; aircraft
+   133000000; 133.000                  ; Narrow FM           ;      10000; Untagged
+   133425300; 133.425                  ; Narrow FM           ;      10000; Untagged
+   144200000; NA 2M SSB Calling Frequency; Narrow FM           ;      10000; amateur
+   144390000; NA APRS                  ; Narrow FM           ;      10000; amateur,telemetry
+   145110000; CWA Concord 1            ; Narrow FM           ;      10000; amateur,repeater
+   145160000; MMRA Brookline           ; Narrow FM           ;      10000; amateur,repeater
+   145231700; W1BOS (BARC)             ; Narrow FM           ;      20000; amateur
+   145330000; Westford - D-STAR XRF038A Repeaters; Narrow FM           ;      10000; amateur
+   145430000; MMRA Belmont             ; Narrow FM           ;      10000; amateur,repeater
+   146030000; MARC 2                   ; Narrow FM           ;      10000; amateur,repeater
+   146520000; NA 2M Simplex Calling Frequency; Narrow FM           ;      10000; amateur
+   146625000; Newbury - RACES Sector 1E W Repeaters; Narrow FM           ;      10000; amateur
+   146640000; WARA 2M Repeater         ; Narrow FM           ;      10000; amateur,repeater
+   146640000; Waltham - P25 - WARA Repeaters; Narrow FM           ;      10000; amateur
+   146640000; Waltham - FM - WARA Echolink 490278 Repeaters; Narrow FM           ;      10000; amateur
+   146670000; MRA Quincy               ; Narrow FM           ;      10000; amateur,repeater
+   146715000; Burlington Repeaters     ; Narrow FM           ;      10000; amateur
+   146715000; North Reading - RACES Sector 1D Repeaters; Narrow FM           ;      10000; amateur
+   146790500; MMRA Weston 1            ; Narrow FM           ;      10000; amateur,repeater
+   146820000; MMRA Boston              ; Narrow FM           ;      10000; amateur,repeater
+   146955000; Westford - RACES Sector 1C Repeaters; Narrow FM           ;      10000; amateur
+   147090000; MARC 1                   ; Narrow FM           ;      10000; amateur,repeater
+   147270000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
+   147390000; Beverly - RACES Sector 1F Repeaters; Narrow FM           ;      10000; amateur
+   150799900; Faint pager signal       ; Narrow FM           ;      10000; pager
+   150955000; Department of Public Works Dunstable; Narrow FM           ;      10000; public_works
+   151025000; Public Works Reading     ; Narrow FM           ;      10000; public_works
+   151100000; Highway Department CH1 Tewksbury; Narrow FM           ;      10000; public_works
+   151526200; unknown DMR              ; Narrow FM           ;      10000; dmr
+   151730000; Boston Amb Chair Car Private EMS; Narrow FM           ;      10000; ems_dispatch
+   151910000; Atlantic Dispatch Private EMS; Narrow FM           ;      10000; ems_dispatch
+   151916700; DMR (Bus dispatch?)      ; Narrow FM           ;      10000; dmr
+   152097000; unknown DMR              ; Narrow FM           ;      10000; dmr
+   152367500; Boston Amb Dispatch Private EMS; Narrow FM           ;      10000; ems_dispatch
+   152397500; Cataldo Chair Car Private EMS; Narrow FM           ;      10000; ems_dispatch
+   152599000; Boston Medical Center    ; Narrow FM           ;      10000; medical,pager
+   152907900; unknown DMR              ; Narrow FM           ;      10000; dmr
+   152960000; Public Works Wakefield   ; Narrow FM           ;      10000; public_works
+   153620000; Electric Light Belmont   ; Narrow FM           ;      10000; public_works,belmont
+   153860000; DPW And Electric Light Operations Groton; Narrow FM           ;      10000; public_works
+   153905000; Public School Department Carlisle; Narrow FM           ;      10000; schools
+   153965000; Public Works Maynard     ; Narrow FM           ;      10000; public_works
+   153965000; Police 3 DPW Tie Maynard ; Narrow FM           ;      10000; law_tac
+   154010000; Fire Secondary/Fireground Lowell; Narrow FM           ;      10000; fire-tac
+   154055000; EMS Dispatch/Operations Groton; Narrow FM           ;      10000; ems_dispatch
+   154145000; Fire Dispatch (Simulcast of UHF) Lincoln; Narrow FM           ;      10000; fire_dispatch
+   154160000; Fire Department Weston   ; Narrow FM           ;      10000; fire_dispatch
+   154205000; Fire Department Lowell   ; Narrow FM           ;      10000; fire_dispatch
+   154205000; Fire Fireground Lowell   ; Narrow FM           ;      10000; fire-tac
+   154205000; Fire Dispatch Natick     ; Narrow FM           ;      10000; fire_dispatch
+   154287500; Fire Department Wilmington; Narrow FM           ;      10000; fire_dispatch
+   154295000; Fire Mobile Repeater(?) Tyngsborough; Narrow FM           ;      10000; fire-tac
+   154340000; Fire Admin Lexington     ; Narrow FM           ;      10000; fire-talk
+   154400000; Fire Department Dracut   ; Narrow FM           ;      10000; fire_dispatch
+   154505000; Cataldo Misc Use Private EMS; Narrow FM           ;      10000; ems-talk
+   154755000; Police 2 Car to Car Maynard; Narrow FM           ;      10000; law_tac
+   154785000; Police to Highways Westford; Narrow FM           ;      10000; public_works
+   154815000; Police Department Acton  ; Narrow FM           ;      10000; law_dispatch
+   155010000; Police Dispatch Maynard  ; Narrow FM           ;      10000; law_dispatch
+   155055000; Public Works Dracut      ; Narrow FM           ;      10000; public_works
+   155160000; Trinity EMS - Chelmsford/Lowell Paging Private EMS; Narrow FM           ;      10000; ems_dispatch
+   155160000; Boston Amb Talkaround Private EMS; Narrow FM           ;      10000; ems-talk
+   155160000; Cataldo Talkaround Private EMS; Narrow FM           ;      10000; ems-talk
+   155160000; Atlantic Talkaround Private EMS; Narrow FM           ;      10000; ems-talk
+   155175000; School/Charter Bus (Tewksbury Transit) Tewksbury; Narrow FM           ;      10000; transportation
+   155233600; Voice                    ; Narrow FM           ;      10000; Untagged
+   155280000; County CMED-Hospital 2 C-MED; Narrow FM           ;      10000; ems-tac
+   155325000; Atlantic Tactical Repeater Private EMS; Narrow FM           ;      10000; ems-tac
+   155340000; County CMED-Hospital 1 C-MED; Narrow FM           ;      10000; ems-tac
+   155385000; Trinity EMS Private EMS  ; Narrow FM           ;      10000; ems_dispatch
+   155400000; Fire Interoperability (patched with 453.125 MHz) Lowell; Narrow FM           ;      10000; fire-talk
+   155415000; Public Works Boxborough  ; Narrow FM           ;      10000; public_works
+   155527500; Public Works Everett     ; Narrow FM           ;      10000; public_works
+   155535000; Police/EMS Department Shirley; Narrow FM           ;      10000; law_dispatch
+   155580000; Police Groton            ; Narrow FM           ;      10000; law_dispatch
+   155595000; Police Department Stow   ; Narrow FM           ;      10000; law_dispatch
+   155647500; Police Department Boxborough; Narrow FM           ;      10000; law_dispatch
+   155715000; Highway Department Ashby ; Narrow FM           ;      10000; fire_dispatch
+   155850000; Police Department Littleton; Narrow FM           ;      10000; law_dispatch
+   155902500; Fire Dispatch / Operations Groton; Narrow FM           ;      10000; fire_dispatch
+   156105000; Public Works Carlisle    ; Narrow FM           ;      10000; public_works
+   156135000; Town of Tyngsborough DPW Tyngsborough; Narrow FM           ;      10000; public_works
+   156195000; Public Works Belmont     ; Narrow FM           ;      10000; public_works,belmont
+   156225000; Department of Public Works Chelmsford; Narrow FM           ;      10000; public_works
+   157740000; Hospital paging?         ; Narrow FM           ;      10000; medical,pager
+   158782500; North Reading DPW North Reading; Narrow FM           ;      10000; public_works
+   158820000; Dept of Public Works Lexington; Narrow FM           ;      10000; public_works
+   158820000; Emergency Management Tewksbury; Narrow FM           ;      10000; emergency_ops
+   158835000; Dep't of Public Works Melrose; Narrow FM           ;      10000; public_works
+   158895000; Police Department Ayer   ; Narrow FM           ;      10000; law_dispatch
+   158925000; Public Works Lowell      ; Narrow FM           ;      10000; public_works
+   158947500; Public Works Malden      ; Narrow FM           ;      10000; public_works
+   158985000; Public Works Maynard     ; Narrow FM           ;      10000; public_works
+   159067500; Public Works Burlington  ; Narrow FM           ;      10000; public_works
+   159120000; Highway Department CH2 Tewksbury; Narrow FM           ;      10000; public_works
+   159330000; Public Works Department Littleton; Narrow FM           ;      10000; public_works
+   159345000; Cataldo Dispatch Private EMS; Narrow FM           ;      10000; ems_dispatch
+   159660000; Sanitation Tewksbury     ; Narrow FM           ;      10000; public_works
+   161295200; 161.295                  ; Narrow FM           ;      10000; Untagged
+   161413500; 161.413                  ; Narrow FM           ;      10000; Untagged
+   161461300; 161.461                  ; Narrow FM           ;      10000; Untagged
+   162475200; NOAA Weather Radio       ; Narrow FM           ;      10000; weather
+   163362500; Bedford VA Police Bedford; Narrow FM           ;      10000; security
+   164425000; Lowell National Park Service Lowell; Narrow FM           ;      10000; federal
+   164725000; Lowell National Park Service Lowell; Narrow FM           ;      10000; federal
+   165537500; Bedford VA Maintenance/Operations Bedford; Narrow FM           ;      10000; federal
+   166875000; Lowell National Park Service Lowell; Narrow FM           ;      10000; federal
+   166950000; Lowell National Park Service Lowell; Narrow FM           ;      10000; federal
+   173289000; Weird digital signal     ; Narrow FM           ;      10000; Untagged
+   223340000; Waltham - WARA Repeaters ; Narrow FM           ;      10000; amateur,repeater
+   223940000; Hopkinton Repeaters      ; Narrow FM           ;      10000; amateur
+   224700000; MMRA Weston 2            ; Narrow FM           ;      10000; amateur,repeater
+   224880000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
+   385887500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   386187500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   386487500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   386962500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   388575000; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   389487500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
+   432100000; NA 70cm calling frequency; Narrow FM           ;      10000; amateur
+   442250000; Lowell Repeaters         ; Narrow FM           ;      10000; amateur
+   442450000; Westford - D-STAR REF050C Repeaters; Narrow FM           ;      10000; amateur
+   442700000; MMRA Weston 3            ; Narrow FM           ;      10000; amateur,repeater
+   444125000; MARC DMR 1               ; Narrow FM           ;      10000; amateur,dmr
+   446775000; Burlington Repeaters     ; Narrow FM           ;      10000; amateur,repeater
+   447575000; CWA Concord 2            ; Narrow FM           ;      10000; amateur,repeater
+   447675000; Natick - RACES Repeaters ; Narrow FM           ;      10000; amateur,repeater
+   448225000; Marlboro Repeaters       ; Narrow FM           ;      10000; amateur,repeater
+   449075000; WARA 70CM Repeater       ; Narrow FM           ;      10000; amateur,repeater
+   449075000; Waltham - WARA Repeaters ; Narrow FM           ;      10000; amateur,repeater
+   449125000; MARC DMR 2               ; Narrow FM           ;      10000; amateur,dmr
+   449175000; W1BOS                    ; Narrow FM           ;      10000; amateur,dmr
+   449522900; Maybe pocsag?            ; Narrow FM           ;      10000; pager
+   449625000; MARC 3                   ; Narrow FM           ;      10000; amateur,repeater
+   449725000; MIT UHF Repeater         ; Narrow FM           ;      10000; amateur,repeater
+   449925000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur,repeater
+   450137900; Radio station?           ; Narrow FM           ;      10000; Untagged
+   450648800; radio station            ; Narrow FM           ;      10000; Untagged
+   451189700; voice                    ; Narrow FM           ;      10000; Untagged
+   451325100; https://www.sigidwiki.com/wiki/Digital_Dispatch_Systems_MDT; Narrow FM           ;      10000; Untagged
+   451450000; Lincoln-Sudbury Regional High School Operations Sudbury; Narrow FM           ;      10000; schools
+   451500000; Site 068 Hopkinton OneVoice Network; Narrow FM           ;      10000; trs
+   451525000; unknown DMR              ; Narrow FM           ;      10000; dmr
+   451699700; unknown DMR              ; Narrow FM           ;      10000; dmr
+   451774500; unknown DMR              ; Narrow FM           ;      10000; dmr
+   451939100; Radio station?           ; Narrow FM           ;      10000; broadcast
+   452051700; Taxi Dispatcher?         ; Narrow FM           ;      10000; transportation
+   452212500; Site 001 Confirmed LCN Trinity EMS (Lowell); Narrow FM           ;      10000; trs
+   452225000; Newton-Wellesley Hospital - Engineering Hospitals; Narrow FM           ;      10000; business
+   452350100; https://www.sigidwiki.com/wiki/Digital_Dispatch_Systems_MDT; Narrow FM           ;      10000; Untagged
+   452599900; Spanish?                 ; Narrow FM           ;      10000; Untagged
+   452825500; Fire?                    ; Narrow FM           ;      10000; fire-talk
+   453012500; Site 068 Hopkinton OneVoice Network; Narrow FM           ;      10000; trs
+   453070000; UMASS EMS Tactical UMass - Lowell; Narrow FM           ;      10000; ems-tac
+   453100000; Water Department Lowell  ; Narrow FM           ;      10000; public_works
+   453125000; Police Interoperability (patched with 155.4 MHz) Lowell; Narrow FM           ;      10000; law_talk
+   453175000; Fire Department Acton    ; Narrow FM           ;      10000; fire_dispatch
+   453237500; Fire TAC Belmont         ; Narrow FM           ;      10000; fire-tac,belmont
+   453337500; Fire Department Dunstable; Narrow FM           ;      10000; fire_dispatch
+   453387500; D14 North Operations / Local Eventl Green (Simplex) District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire_dispatch
+   453400000; UMASS Lowell EMS Tones UMass - Lowell; Narrow FM           ;      10000; ems_dispatch
+   453400000; UMass Lowell - PD Primary UMass - Lowell; Narrow FM           ;      10000; security
+   453412500; Public Works Medford     ; Narrow FM           ;      10000; public_works
+   453437500; Stow Fire - Operations Stow; Narrow FM           ;      10000; fire_dispatch
+   453475000; Fire Department Dispatch Ashby; Narrow FM           ;      10000; fire_dispatch
+   453500000; Public Works Somerville  ; Narrow FM           ;      10000; public_works
+   453537500; D14 Local Event Repeater - Orange District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+   453537500; D14 Local Event - Blue District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+   453550000; Fire Department Pepperell; Narrow FM           ;      10000; fire_dispatch
+   453575000; Regional Transit Authority - Bus Ops Lowell; Narrow FM           ;      10000; transportation
+   453575000; Regional Transit Authority - Road Runner Ops Lowell; Narrow FM           ;      10000; transportation
+   453612500; Site 001 Confirmed LCN Trinity EMS (Lowell); Narrow FM           ;      10000; trs
+   453625000; Parking and Traffic Department Somerville; Narrow FM           ;      10000; public_works
+   453650300; Boston fire?             ; Narrow FM           ;      10000; fire_dispatch
+   453687500; Police Dispatch - New Ashby; Narrow FM           ;      10000; law_dispatch
+   453725000; Fire/EMS EMS Operations Townsend; Narrow FM           ;      10000; fire-tac
+   453737500; Fire Department Bedford  ; Narrow FM           ;      10000; fire_dispatch
+   453762500; Fireground Channel Burlington; Narrow FM           ;      10000; fire-tac
+   453787500; Fire Administration (Digital) Westford; Narrow FM           ;      10000; fire-tac
+   453787500; Fire Administration Westford; Narrow FM           ;      10000; fire-tac
+   453800000; Fire Fireground Bedford  ; Narrow FM           ;      10000; fire-tac
+   453825000; Police Department Townsend; Narrow FM           ;      10000; law_dispatch
+   453837500; Police F2 Analog Waltham ; Narrow FM           ;      10000; law_talk
+   453837500; Police F2 Digital Waltham; Narrow FM           ;      10000; law_dispatch
+   453837500; Fire Dispatch / Operations Groton; Narrow FM           ;      10000; fire_dispatch
+   453900000; Fire/EMS Fire Alarm Townsend; Narrow FM           ;      10000; fire_dispatch
+   453950000; Fire Department North Reading; Narrow FM           ;      10000; fire_dispatch
+   457512500; Top Donut - Lowell Miscellaneous; Narrow FM           ;      10000; business
+   458250000; Fire Department CH3 North Reading; Narrow FM           ;      10000; fire-tac
+   458412500; Fire Fireground Dunstable; Narrow FM           ;      10000; fire-tac
+   460037500; County Fire District 6 Operations District 6 Fire Mutual Aid Association; Narrow FM           ;      10000; fire_dispatch
+   460087500; Fire Fireground Hopkinton; Narrow FM           ;      10000; fire-tac
+   460100000; D14 Local Event - Red District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+   460175300; 460.165                  ; Narrow FM           ;      10000; Untagged
+   460225200; 460.225                  ; Narrow FM           ;      10000; law_talk
+   460262500; Fire Primary Operations Littleton; Narrow FM           ;      10000; fire_dispatch
+   460287500; Police Department Carlisle; Narrow FM           ;      10000; law_dispatch
+   460312500; Fire Department Hopkinton; Narrow FM           ;      10000; fire_dispatch
+   460362500; Public Works Tewksbury   ; Narrow FM           ;      10000; public_works
+   460412500; Natick DPW (Patched to 46.56) Natick; Narrow FM           ;      10000; public_works
+   460437500; Public Works Weston      ; Narrow FM           ;      10000; public_works
+   460450600; 460.450                  ; Narrow FM           ;      10000; Untagged
+   460500000; Police Dispatch Ashby    ; Narrow FM           ;      10000; law_dispatch
+   460562500; Fire Department CH2 Maynard; Narrow FM           ;      10000; fire-tac
+   460600000; Fire Department Arlington; Narrow FM           ;      10000; fire_dispatch
+   460625000; Fire Department Stoneham ; Narrow FM           ;      10000; fire_dispatch
+   460925000; SmarTraveler Traffic Media & Fire Buff; Narrow FM           ;      10000; media
+   461050000; Patriot CH-4 Lawrence/Dracut Private EMS; Narrow FM           ;      10000; ems_dispatch
+   461250000; Facilities 1 Massachusetts Institute of Technology; Narrow FM           ;      10000; schools
+   461262500; New England Sports Center - F1 Miscellaneous; Narrow FM           ;      10000; business
+   461300000; Site 001 Confirmed LCN Trinity EMS (Hollis); Narrow FM           ;      10000; trs
+   461400000; Merrimack Valley Fire buffs2 Media & Fire Buff; Narrow FM           ;      10000; media
+   461450000; Site 001 Confirmed LCN Trinity EMS (Hollis); Narrow FM           ;      10000; trs
+   461674500; 461.674                  ; Narrow FM           ;      10000; dmr
+   461775000; Facilities 2 Massachusetts Institute of Technology; Narrow FM           ;      10000; schools
+   461824100; unknown DMR              ; Narrow FM           ;      10000; dmr
+   461925000; SmarTraveler Traffic Media & Fire Buff; Narrow FM           ;      10000; media
+   462075000; Tufts Emergency Medical Services - Digital Tufts University; Narrow FM           ;      10000; ems_dispatch
+   462075000; Tufts Emergency Medical Services Tufts University; Narrow FM           ;      10000; ems_dispatch
+   462098200; unknown DMR              ; Narrow FM           ;      10000; dmr
+   462299500; Voice                    ; Narrow FM           ;      10000; Untagged
+   462322400; unknown DMR              ; Narrow FM           ;      10000; dmr
+   462475000; Patriot CH-2 Marlboro/Hudson Private EMS; Narrow FM           ;      10000; ems_dispatch
+   462550000; GMRS 550                 ; Narrow FM           ;      10000; gmrs
+   462562500; GMRS 562                 ; Narrow FM           ;      10000; gmrs
+   462575000; GMRS 575                 ; Narrow FM           ;      10000; gmrs
+   462587500; GMRS 587                 ; Narrow FM           ;      10000; gmrs
+   462600000; GMRS 600                 ; Narrow FM           ;      10000; gmrs
+   462612500; GMRS 612                 ; Narrow FM           ;      10000; gmrs
+   462625000; GMRS 625                 ; Narrow FM           ;      10000; gmrs
+   462637500; GMRS 637                 ; Narrow FM           ;      10000; gmrs
+   462650000; GMRS 650                 ; Narrow FM           ;      10000; gmrs
+   462662500; GMRS 662                 ; Narrow FM           ;      10000; gmrs
+   462675000; GMRS 675                 ; Narrow FM           ;      10000; gmrs
+   462687500; GMRS 687                 ; Narrow FM           ;      10000; gmrs
+   462700000; GMRS 700                 ; Narrow FM           ;      10000; gmrs
+   462712500; GMRS 712                 ; Narrow FM           ;      10000; gmrs
+   462725000; GMRS 725                 ; Narrow FM           ;      10000; gmrs
+   462751700; Pager                    ; Narrow FM           ;      10000; medical
+   462950000; County Tac-9 Paramedics (ALS) C-MED; Narrow FM           ;      10000; ems-tac
+   462975600; Boston                   ; Narrow FM           ;      10000; law_talk
+   463074500; Voice                    ; Narrow FM           ;      10000; Untagged
+   463325000; Tufts Security Analog Tufts University; Narrow FM           ;      10000; security
+   463325000; Tufts Security Digital Tufts University; Narrow FM           ;      10000; security
+   463374700; Voice                    ; Narrow FM           ;      10000; Untagged
+   463437500; Lowell General Hospital - Operations Hospitals; Narrow FM           ;      10000; business
+   463500000; Sanitation Lowell        ; Narrow FM           ;      10000; public_works
+   463525000; Armstrong Ambulance ALS Arlington; Narrow FM           ;      10000; ems_dispatch
+   463525000; Armstrong Ambulance ALS Medford; Narrow FM           ;      10000; ems_dispatch
+   463550000; Merrimack Valley Fire buffs1 Media & Fire Buff; Narrow FM           ;      10000; media
+   463650000; Pridestar Ambulance Transfer (Lowell) Private EMS; Narrow FM           ;      10000; ems_dispatch
+   463650000; Lincoln-Sudbury Regional High School Operations Sudbury; Narrow FM           ;      10000; schools
+   463775000; Waste Water Treatment Facility Lowell; Narrow FM           ;      10000; public_works
+   463850000; Metro radio system Media & Fire Buff; Narrow FM           ;      10000; media
+   463962000; 463.962                  ; Narrow FM           ;      10000; dmr
+   464025000; Armstrong Ambulance BLS Medford; Narrow FM           ;      10000; ems_dispatch
+   464025000; Armstrong Ambulance Service Private EMS; Narrow FM           ;      10000; ems_dispatch
+   464025000; Armstrong Ambulance BLS Arlington; Narrow FM           ;      10000; ems_dispatch
+   464125200; unknown DMR              ; Narrow FM           ;      10000; dmr
+   464200000; Middlesex Radio Fire Buffs Media & Fire Buff; Narrow FM           ;      10000; media
+   464238300; 464.238                  ; Narrow FM           ;      10000; Untagged
+   464275000; Brandeis University Brandeis University; Narrow FM           ;      10000; security
+   464312500; Bentley College PD Bentley College; Narrow FM           ;      10000; security
+   464375000; Holiday Inn (Boxborough Woods) Hotels; Narrow FM           ;      10000; business
+   464550000; Fairfield Inn (Woburn) Hotels; Narrow FM           ;      10000; business
+   464823900; 464,823                  ; Narrow FM           ;      10000; dmr
+   464900800; 464.900                  ; Narrow FM           ;      10000; dmr
+   464912500; Whidden Hospital - Everett Security Hospitals; Narrow FM           ;      10000; security
+   465537500; Fire Department CH4 North Reading; Narrow FM           ;      10000; fire-tac
+   467550000; GMRS IN 550              ; Narrow FM           ;      10000; gmrs
+   467575000; GMRS IN 575              ; Narrow FM           ;      10000; gmrs
+   467600000; GMRS IN 600              ; Narrow FM           ;      10000; gmrs
+   467625000; GMRS IN 625              ; Narrow FM           ;      10000; gmrs
+   467650000; GMRS IN 650              ; Narrow FM           ;      10000; gmrs
+   467675000; GMRS IN 675              ; Narrow FM           ;      10000; gmrs
+   467700000; GMRS IN 700              ; Narrow FM           ;      10000; gmrs
+   467725000; GMRS IN 725              ; Narrow FM           ;      10000; gmrs
+   467875000; Craker Barrell - Tewksbury Miscellaneous; Narrow FM           ;      10000; business
+   470050000; Fire Department Everett  ; Narrow FM           ;      10000; fire_dispatch
+   470063800; 470.063                  ; Narrow FM           ;      10000; ems_dispatch
+   470112500; Fire Ch 1 Dispatch (Dual Mode w/ P25 Capacity) Waltham; Narrow FM           ;      10000; fire_dispatch
+   470112500; Fire Ch 1 Dispatch (P25 Mode) Waltham; Narrow FM           ;      10000; fire_dispatch
+   470125000; UHF patched to 851.8000 Cambridge; Narrow FM           ;      10000; law_talk
+   470162500; Fire Department Weston   ; Narrow FM           ;      10000; fire_dispatch
+   470238100; Medford dispatcher?      ; Narrow FM           ;      10000; Untagged
+   470312500; UHF simulcast of talk group 1109 CPD Ch 1 Cambridge; Narrow FM           ;      10000; law_dispatch
+   470350000; Emergency Managment Westford; Narrow FM           ;      10000; emergency_ops
+   470387500; Police Channel 2 Newton  ; Narrow FM           ;      10000; law_talk
+   470425000; Fire Department Ayer     ; Narrow FM           ;      10000; fire_dispatch
+   470475000; Fire Department Holliston; Narrow FM           ;      10000; fire_dispatch
+   470512500; Police F1 Analog Waltham ; Narrow FM           ;      10000; law_talk
+   470512500; Police F1 Digital Waltham; Narrow FM           ;      10000; law_dispatch
+   470537500; Police Department Somerville; Narrow FM           ;      10000; law_dispatch
+   470587500; Police Department Medford; Narrow FM           ;      10000; law_dispatch
+   470600000; Police Department Hudson ; Narrow FM           ;      10000; law_dispatch
+   470664000; 470.664                  ; Narrow FM           ;      10000; law_talk
+   470675000; Highway Department Framingham; Narrow FM           ;      10000; public_works
+   470700000; Fire/EMS Department Hudson; Narrow FM           ;      10000; multi-dispatch
+   470712500; Police Department Watertown; Narrow FM           ;      10000; law_dispatch
+   470762500; Police Department Malden ; Narrow FM           ;      10000; law_dispatch
+   470812500; Police Department Everett; Narrow FM           ;      10000; law_dispatch
+   470837500; Police Department Newton ; Narrow FM           ;      10000; law_dispatch
+   470850000; Fire Department Lincoln  ; Narrow FM           ;      10000; fire_dispatch
+   470861100; 470.861                  ; Narrow FM           ;      10000; law_talk
+   470887800; 470.887                  ; Narrow FM           ;      10000; law_talk
+   470900000; Fire Department Maynard  ; Narrow FM           ;      10000; fire_dispatch
+   470988000; 470.988                  ; Narrow FM           ;      10000; Untagged
+   471011800; Police? Boston/Brookline ; Narrow FM           ;      10000; law_talk
+   471037500; Police Department Melrose; Narrow FM           ;      10000; law_dispatch
+   471050000; D14 South Operations / Local Event White (Simplex) District 14 Fire Mutual Aid Association; Narrow FM           ;      10000; fire_dispatch
+   471125000; Water Department Framingham; Narrow FM           ;      10000; public_works
+   471162500; Police Department Arlington; Narrow FM           ;      10000; law_dispatch
+   471187500; Police Department Lexington; Narrow FM           ;      10000; law_dispatch
+   471237300; 471.237                  ; Narrow FM           ;      10000; Untagged
+   471312500; UHF simulcast of talk group 1051 CFD Ch 1 Cambridge; Narrow FM           ;      10000; fire_dispatch
+   471325000; Fire Dispatch/Operations Westford; Narrow FM           ;      10000; fire_dispatch
+   471337500; Police Department Holliston; Narrow FM           ;      10000; law_dispatch
+   471362500; Police Department Winchester; Narrow FM           ;      10000; law_dispatch
+   471412500; Police Department Belmont; Narrow FM           ;      10000; law_dispatch,belmont
+   471500000; Fire Dispatch Shirley    ; Narrow FM           ;      10000; fire_dispatch
+   471600000; Fire Dispatch - Operations Boxborough; Narrow FM           ;      10000; fire_dispatch
+   471612500; Police Department Hopkinton; Narrow FM           ;      10000; law_dispatch
+   471637500; Police Department Sherborn; Narrow FM           ;      10000; law_dispatch
+   471650000; Police Talk Around Woburn; Narrow FM           ;      10000; law_tac
+   471650000; Police Talk Around Woburn; Narrow FM           ;      10000; law_tac
+   471712500; Dispatch Simulcast - Analog Woburn; Narrow FM           ;      10000; law_dispatch
+   471712500; Dispatch Simulcast - Digital Woburn; Narrow FM           ;      10000; law_dispatch
+   471762500; Police Department Framingham; Narrow FM           ;      10000; law_dispatch
+   471787500; Police Dispatch Wakefield; Narrow FM           ;      10000; law_dispatch
+   471836800; Unknown (some spanish)   ; Narrow FM           ;      10000; Untagged
+   472012500; Atlantic UHF Chair Car Private EMS; Narrow FM           ;      10000; ems_dispatch
+   472049100; unknown DMR              ; Narrow FM           ;      10000; dmr
+   472100000; Fire Operations/Dispatch Carlisle; Narrow FM           ;      10000; fire_dispatch
+   472237500; Police Department Weston ; Narrow FM           ;      10000; law_dispatch
+   472289400; 472.289                  ; Narrow FM           ;      10000; law_talk
+   472449400; 472.449                  ; Narrow FM           ;      10000; dmr
+   472537500; Ch 5 Patch to EMS Cambridge; Narrow FM           ;      10000; ems-talk
+   472612500; Saints Memorial Medical Center - Security Hospitals; Narrow FM           ;      10000; security
+   472737500; Police Dispatch Natick   ; Narrow FM           ;      10000; law_dispatch
+   472800000; Fireground Natick        ; Narrow FM           ;      10000; fire-talk
+   472825000; Police Secondary - West Natick Special Events Natick; Narrow FM           ;      10000; law_tac
+   472962500; Boston Sparks Citywide - Primary Media & Fire Buff; Narrow FM           ;      10000; media
+   475287500; JFK Transportation (Vans) Transportation; Narrow FM           ;      10000; business
+   482012500; Fire Department Malden   ; Narrow FM           ;      10000; fire_dispatch
+   482037500; UHF patch to 855.5625 Cambridge; Narrow FM           ;      10000; fire-talk
+   482087500; Fire Department Lexington; Narrow FM           ;      10000; fire_dispatch
+   482137500; Fire Department Medford  ; Narrow FM           ;      10000; fire_dispatch
+   482150000; Fire Department Melrose  ; Narrow FM           ;      10000; fire_dispatch
+   482175000; Fire Department Tactical Everett; Narrow FM           ;      10000; fire-tac
+   482187500; Fire Fireground Melrose  ; Narrow FM           ;      10000; fire-tac
+   482187500; Fire Fireground Medford  ; Narrow FM           ;      10000; fire-tac
+   482225000; Fire Ch.2 Fireground Waltham; Narrow FM           ;      10000; fire-tac
+   482287500; UHF patch to 854.4875 Cambridge; Narrow FM           ;      10000; fire-talk
+   482312500; Police Department Wilmington; Narrow FM           ;      10000; law_dispatch
+   482337500; Police Department Concord; Narrow FM           ;      10000; law_dispatch
+   482412500; Police Dispatch (Analog) Lowell; Narrow FM           ;      10000; law_dispatch
+   482412500; Police Dispatch (Digital) Lowell; Narrow FM           ;      10000; law_dispatch
+   482487500; Police Department Burlington; Narrow FM           ;      10000; law_dispatch
+   482512500; Police Department Chelmsford; Narrow FM           ;      10000; law_dispatch
+   482537500; Police Department - Analog Stoneham; Narrow FM           ;      10000; law_dispatch
+   482537500; Police Department - Digital Stoneham; Narrow FM           ;      10000; law_dispatch
+   482662500; Police Primary / Tactical 1 Tewksbury; Narrow FM           ;      10000; law_dispatch
+   482712500; Police Department Bedford; Narrow FM           ;      10000; law_dispatch
+   482737500; Police Dispatch Digital North Reading; Narrow FM           ;      10000; law_dispatch
+   482737500; Police Dispatch Analog North Reading; Narrow FM           ;      10000; law_dispatch
+   482750000; Fire Department Sudbury  ; Narrow FM           ;      10000; fire_dispatch
+   482775000; Fire Department Chelmsford; Narrow FM           ;      10000; fire_dispatch
+   482775000; Fire Department Belmont  ; Narrow FM           ;      10000; fire_dispatch,belmont
+   482800000; Police Department Pepperell; Narrow FM           ;      10000; law_dispatch
+   482812500; Police Dispatch - Analog Woburn; Narrow FM           ;      10000; law_dispatch
+   482812500; Police Dispatch - Digital Woburn; Narrow FM           ;      10000; law_dispatch
+   482887500; Police Department Dracut ; Narrow FM           ;      10000; law_dispatch
+   482962500; Fire Department - Dispatch Newton; Narrow FM           ;      10000; fire_dispatch
+   483000000; Police Department Lincoln; Narrow FM           ;      10000; law_dispatch
+   483087500; Fire Department Sherborn ; Narrow FM           ;      10000; fire_dispatch
+   483087500; Police Department Billerica; Narrow FM           ;      10000; law_dispatch
+   483112500; Police Department Ashland; Narrow FM           ;      10000; law_dispatch
+   483125000; Police Department Westford; Narrow FM           ;      10000; law_dispatch
+   483163200; voice (fire)             ; Narrow FM           ;      10000; fire-talk
+   483188400; voice                    ; Narrow FM           ;      10000; Untagged
+   483262500; Fire Fireground/Operations Somerville; Narrow FM           ;      10000; fire-tac
+   483286700; 483.286                  ; Narrow FM           ;      10000; fire-talk
+   483362500; Fire Department Burlington; Narrow FM           ;      10000; fire_dispatch
+   483387500; Fire Dispatch Somerville ; Narrow FM           ;      10000; fire_dispatch
+   483412500; Fire Department Wayland  ; Narrow FM           ;      10000; fire_dispatch
+   483412500; Fire Department Reading  ; Narrow FM           ;      10000; fire_dispatch
+   483437500; Fire Dispatch Wakefield  ; Narrow FM           ;      10000; fire_dispatch
+   483462500; Fire Department - Fireground (Former Dispatch) Newton; Narrow FM           ;      10000; fire_dispatch
+   483475000; Fire Department Billerica; Narrow FM           ;      10000; fire_dispatch
+   483487700; 483.487                  ; Narrow FM           ;      10000; dmr
+   483500000; Police Secondary Tewksbury; Narrow FM           ;      10000; law_tac
+   483537500; Fire Department Concord  ; Narrow FM           ;      10000; fire_dispatch
+   483612500; Fire Department Woburn   ; Narrow FM           ;      10000; fire_dispatch
+   483637500; County Fire District 6 Admin District 6 Fire Mutual Aid Association; Narrow FM           ;      10000; fire-tac
+   483637500; Fire Secondary Tewksbury ; Narrow FM           ;      10000; fire-tac
+   483650000; Fire Dispatch Natick     ; Narrow FM           ;      10000; fire_dispatch
+   483662500; Police Department Reading; Narrow FM           ;      10000; law_dispatch
+   483687500; Fire Department Winchester; Narrow FM           ;      10000; fire_dispatch
+   483712500; Fire Primary / Tactical 1 Tewksbury; Narrow FM           ;      10000; fire_dispatch
+   483712500; Fire Department Watertown; Narrow FM           ;      10000; fire_dispatch
+   483712500; Fire Fireground Concord  ; Narrow FM           ;      10000; fire-tac
+   483762500; Fire Department Framingham; Narrow FM           ;      10000; fire_dispatch
+   483937300; 483.937                  ; Narrow FM           ;      10000; Untagged
+   484025000; Emergency Management Billerica; Narrow FM           ;      10000; emergency_ops
+   484037500; Boston Sparks citywide - Old Media & Fire Buff; Narrow FM           ;      10000; deprecated
+   484362500; Site 001 Confirmed LCN Dispatch Communications (Andover); Narrow FM           ;      10000; trs
+   484375000; Fire Department Tyngsborough; Narrow FM           ;      10000; fire_dispatch
+   484387500; Fire Department Ashland  ; Narrow FM           ;      10000; fire_dispatch
+   484387500; Fire Fireground Tewksbury; Narrow FM           ;      10000; fire-tac
+   484437500; Police Department Wayland; Narrow FM           ;      10000; law_dispatch
+   484712500; UMass Police / EMS Secondary UMass - Lowell; Narrow FM           ;      10000; security
+   484762500; Site 001 Confirmed LCN Dispatch Communications (Andover); Narrow FM           ;      10000; trs
+   484875000; Police Department Tyngsborough; Narrow FM           ;      10000; law_dispatch
+   484950000; Police Department Secondary (Encrypted) Lowell; Narrow FM           ;      10000; law_dispatch
+   485187500; Metro Fire Central Fire Ground Everett; Narrow FM           ;      10000; fire-tac
+   485387500; Police Direct/Tactical Reading; Narrow FM           ;      10000; law_tac
+   486437500; Fireground Ops (Fire Channel 3) Wakefield; Narrow FM           ;      10000; fire-talk
+   851125000; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   851325000; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   851625000; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   851800000; Patched to UHF 16 Cambridge; Narrow FM           ;      10000; law_talk
+   852112500; MCI Concord - Primary Concord; Narrow FM           ;      10000; corrections
+   852300000; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   852437500; MIT Campus PD Patch to TG1189 Massachusetts Institute of Technology; Narrow FM           ;      10000; security
+   852687500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   852912500; Police Department Sudbury; Narrow FM           ;      10000; law_dispatch
+   853325000; MCI Concord - Secondary Concord; Narrow FM           ;      10000; corrections
+   853787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   854262500; Public Works Marlborough ; Narrow FM           ;      10000; public_works
+   854387500; Fire Ground Channel 16 Marlborough; Narrow FM           ;      10000; fire-tac
+   854487500; Ch 16 fireground Cambridge; Narrow FM           ;      10000; fire-talk
+   855562500; Ch 13 simplex Cambridge  ; Narrow FM           ;      10000; fire-talk
+   855562500; Ch 14 Fireground Cambridge; Narrow FM           ;      10000; fire-tac
+   856362500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   856462500; Police Dispatch Marlborough; Narrow FM           ;      10000; law_dispatch
+   856462500; Police Dispatch Talk-Around Marlborough; Narrow FM           ;      10000; law_dispatch
+   856787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   857287500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   857462500; Police Detectives/Special Details Marlborough; Narrow FM           ;      10000; law_tac
+   857462500; Police Detectives/Special Details Talk-Around Marlborough; Narrow FM           ;      10000; law_tac
+   857787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   858462500; Fire Dispatch Talk-Around Marlborough; Narrow FM           ;      10000; fire_dispatch
+   858462500; Fire/EMS Dispatch Marlborough; Narrow FM           ;      10000; fire_dispatch
+   858787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   859462500; Fire Secondary Marlborough; Narrow FM           ;      10000; fire-tac
+   859462500; Fire Secondary Talk-Around Marlborough; Narrow FM           ;      10000; ems-talk
+   859487500; Fire - Mobile Repeaters (Mutual Aid) Cambridge; Narrow FM           ;      10000; fire-tac
+   859787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
+   902137500; Waltham - WARA Repeaters ; Narrow FM           ;      10000; amateur
+   927062500; MMRA Boston Waterfront   ; Narrow FM           ;      10000; amateur,repeater
+   927700000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
+   929386000; flex paging              ; Narrow FM           ;      20000; pager
+   929612500; flex paging              ; Narrow FM           ;      10000; pager
+   929663000; flex paging              ; Narrow FM           ;      20000; pager
+   929837000; flex paging              ; Narrow FM           ;      20000; pager
+   929937000; flex paging              ; Narrow FM           ;      20000; pager
+   935100000; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   935250000; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   935250000; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   935512500; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   935512500; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   935537500; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   935537500; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   935750000; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   935750001; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   936200000; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   936200000; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   936387500; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   936400000; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   936412500; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   936512500; Site 001 Primary Industrial Communications and Electronics (Waltham); Narrow FM           ;      10000; trs
+   936525000; Site 001 Primary Industrial Communications and Electronics (Waltham); Narrow FM           ;      10000; trs
+   936537500; Site 001 Primary Industrial Communications and Electronics (Waltham); Narrow FM           ;      10000; trs
+   936550000; Site 001 Primary Industrial Communications and Electronics (Waltham); Narrow FM           ;      10000; trs
+   936562500; Site 001 Primary Industrial Communications and Electronics (Waltham); Narrow FM           ;      10000; trs
+   937000000; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   937587500; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   937600000; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   937725000; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   938425000; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   938437500; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   938512500; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   938512500; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   939162500; Site 001 Site 1 Industrial Communications (Sudbury); Narrow FM           ;      10000; trs
+   939162500; Site 006 Sudbury Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   939187500; Site 007 Site 7 - Framingham Comtronics DMR - Network 139; Narrow FM           ;      10000; trs
+   939275000; Site 032 Sudbury/Framingham Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   939287500; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   939300000; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
+   939750000; Site 007 Site 7 - Framingham Comtronics DMR - Network 139; Narrow FM           ;      10000; trs
+   939912500; Site 004 Medford Industrial Communications and Electronics (DMR); Narrow FM           ;      10000; trs
