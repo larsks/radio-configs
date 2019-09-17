@@ -1,40 +1,39 @@
 # Tag name          ;  color
-fire_dispatch       ; #c0c0c0
-ems_dispatch        ; #c0c0c0
-pager               ; #c0c0c0
-weather             ; #c0c0c0
-trs                 ; #c0c0c0
-schools             ; #c0c0c0
-repeater            ; #c0c0c0
-fire-tac            ; #c0c0c0
-amateur             ; #c0c0c0
-mmra                ; #c0c0c0
-medical             ; #c0c0c0
-business            ; #c0c0c0
-dmr                 ; #c0c0c0
-media               ; #c0c0c0
-ems-tac             ; #c0c0c0
-law_talk            ; #c0c0c0
-broadcast           ; #c0c0c0
-fire-talk           ; #c0c0c0
 aircraft            ; #c0c0c0
-law_dispatch        ; #c0c0c0
-deprecated          ; #c0c0c0
-belmont             ; #c0c0c0
-law_tac             ; #c0c0c0
-ems-talk            ; #c0c0c0
-multi-dispatch      ; #c0c0c0
-transportation      ; #c0c0c0
-corrections         ; #c0c0c0
-emergency_ops       ; #c0c0c0
 amateur             ; #c0c0c0
-public_works        ; #c0c0c0
-federal             ; #c0c0c0
-Untagged            ; #c0c0c0
-telemetry           ; #c0c0c0
+belmont             ; #c0c0c0
+broadcast           ; #c0c0c0
+business            ; #c0c0c0
 cb                  ; #c0c0c0
+corrections         ; #c0c0c0
+deprecated          ; #c0c0c0
+dmr                 ; #c0c0c0
+emergency_ops       ; #c0c0c0
+ems_dispatch        ; #c0c0c0
+ems-tac             ; #c0c0c0
+ems-talk            ; #c0c0c0
+federal             ; #c0c0c0
+fire_dispatch       ; #c0c0c0
+fire-tac            ; #c0c0c0
+fire-talk           ; #c0c0c0
 gmrs                ; #c0c0c0
+law_dispatch        ; #c0c0c0
+law_tac             ; #c0c0c0
+law_talk            ; #c0c0c0
+media               ; #c0c0c0
+medical             ; #c0c0c0
+mmra                ; #00c000
+multi-dispatch      ; #c0c0c0
+pager               ; #c0c0c0
+public_works        ; #c0c0c0
+repeater            ; #c0c0c0
+schools             ; #c0c0c0
 security            ; #c0c0c0
+telemetry           ; #c0c0c0
+transportation      ; #c0c0c0
+trs                 ; #c0c0c0
+Untagged            ; #c0c0c0
+weather             ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
     26965000; CB 1                     ; AM                  ;      10000; cb
@@ -77,24 +76,26 @@ security            ; #c0c0c0
    144200000; NA 2M SSB Calling Frequency; Narrow FM           ;      10000; amateur
    144390000; NA APRS                  ; Narrow FM           ;      10000; amateur,telemetry
    145110000; CWA Concord 1            ; Narrow FM           ;      10000; amateur,repeater
-   145160000; MMRA Brookline           ; Narrow FM           ;      10000; amateur,repeater,mmra
+   145160000; MMRA BRK                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    145231700; W1BOS (BARC)             ; Narrow FM           ;      20000; amateur
    145330000; Westford - D-STAR XRF038A Repeaters; Narrow FM           ;      10000; amateur
-   145430000; MMRA Belmont             ; Narrow FM           ;      10000; amateur,repeater,mmra
+   145430000; MMRA BEL                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    146030000; MARC 2                   ; Narrow FM           ;      10000; amateur,repeater
    146520000; NA 2M Simplex Calling Frequency; Narrow FM           ;      10000; amateur
    146625000; Newbury - RACES Sector 1E W Repeaters; Narrow FM           ;      10000; amateur
    146640000; WARA 2M Repeater         ; Narrow FM           ;      10000; amateur,repeater
    146640000; Waltham - P25 - WARA Repeaters; Narrow FM           ;      10000; amateur
    146640000; Waltham - FM - WARA Echolink 490278 Repeaters; Narrow FM           ;      10000; amateur
-   146670000; MRA Quincy               ; Narrow FM           ;      10000; amateur,repeater
+   146670000; MMRA QCY                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    146715000; Burlington Repeaters     ; Narrow FM           ;      10000; amateur
    146715000; North Reading - RACES Sector 1D Repeaters; Narrow FM           ;      10000; amateur
-   146790500; MMRA Weston 1            ; Narrow FM           ;      10000; amateur,repeater,mmra
-   146820000; MMRA Boston              ; Narrow FM           ;      10000; amateur,repeater,mmra
+   146715000; MMRA NRD                 ; Narrow FM           ;      10000; mmra,amateur,repeater
+   146790500; MMRA WES                 ; Narrow FM           ;      10000; mmra,amateur,repeater
+   146820000; MMRA BBY                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    146955000; Westford - RACES Sector 1C Repeaters; Narrow FM           ;      10000; amateur
    147090000; MARC 1                   ; Narrow FM           ;      10000; amateur,repeater
    147270000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
+   147270000; MMRA MRW                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    147390000; Beverly - RACES Sector 1F Repeaters; Narrow FM           ;      10000; amateur
    150799900; Faint pager signal       ; Narrow FM           ;      10000; pager
    150955000; Department of Public Works Dunstable; Narrow FM           ;      10000; public_works
@@ -183,7 +184,7 @@ security            ; #c0c0c0
    173289000; Weird digital signal     ; Narrow FM           ;      10000; Untagged
    223340000; Waltham - WARA Repeaters ; Narrow FM           ;      10000; amateur,repeater
    223940000; Hopkinton Repeaters      ; Narrow FM           ;      10000; amateur
-   224700000; MMRA Weston 2            ; Narrow FM           ;      10000; amateur,repeater,mmra
+   224700000; MMRA WES                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    224880000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
    385887500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
    386187500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
@@ -192,9 +193,9 @@ security            ; #c0c0c0
    388575000; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
    389487500; Site 101 Hanscom AFB United States Air Force (157); Narrow FM           ;      10000; trs
    432100000; NA 70cm calling frequency; Narrow FM           ;      10000; amateur
-   442250000; Lowell Repeaters         ; Narrow FM           ;      10000; amateur
+   442250000; MMRA LWL                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    442450000; Westford - D-STAR REF050C Repeaters; Narrow FM           ;      10000; amateur
-   442700000; MMRA Weston 3            ; Narrow FM           ;      10000; amateur,repeater,mmra
+   442700000; MMRA WES                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    444125000; MARC DMR 1               ; Narrow FM           ;      10000; amateur,dmr
    446775000; Burlington Repeaters     ; Narrow FM           ;      10000; amateur,repeater
    447575000; CWA Concord 2            ; Narrow FM           ;      10000; amateur,repeater
@@ -205,9 +206,10 @@ security            ; #c0c0c0
    449125000; MARC DMR 2               ; Narrow FM           ;      10000; amateur,dmr
    449175000; W1BOS                    ; Narrow FM           ;      10000; amateur,dmr
    449522900; Maybe pocsag?            ; Narrow FM           ;      10000; pager
+   449575000; MMRA HOP                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    449625000; MARC 3                   ; Narrow FM           ;      10000; amateur,repeater
    449725000; MIT UHF Repeater         ; Narrow FM           ;      10000; amateur,repeater
-   449925000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur,repeater
+   449925000; MMRA MRW                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    450137900; Radio station?           ; Narrow FM           ;      10000; Untagged
    450648800; radio station            ; Narrow FM           ;      10000; Untagged
    451189700; voice                    ; Narrow FM           ;      10000; Untagged
@@ -521,7 +523,7 @@ security            ; #c0c0c0
    859487500; Fire - Mobile Repeaters (Mutual Aid) Cambridge; Narrow FM           ;      10000; fire-tac
    859787500; Site 001 Cambridge Commonwealth Of Massachusetts; Narrow FM           ;      10000; trs
    902137500; Waltham - WARA Repeaters ; Narrow FM           ;      10000; amateur
-   927062500; MMRA Boston Waterfront   ; Narrow FM           ;      10000; amateur,repeater,mmra
+   927062500; MMRA BOS                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    927700000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
    929386000; flex paging              ; Narrow FM           ;      20000; pager
    929612500; flex paging              ; Narrow FM           ;      10000; pager
