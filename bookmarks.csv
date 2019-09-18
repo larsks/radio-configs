@@ -526,6 +526,7 @@ weather             ; #c0c0c0
    927062500; MMRA BOS                 ; Narrow FM           ;      10000; mmra,amateur,repeater
    927700000; Marlboro West Repeaters  ; Narrow FM           ;      10000; amateur
    929386000; flex paging              ; Narrow FM           ;      20000; pager
+   929588200; flex paging              ; Narrow FM           ;      20000; pager
    929612500; flex paging              ; Narrow FM           ;      10000; pager
    929663000; flex paging              ; Narrow FM           ;      20000; pager
    929837000; flex paging              ; Narrow FM           ;      20000; pager
