@@ -1,4 +1,5 @@
-from marshmallow import Schema, fields, validate, pre_load, missing
+from marshmallow import Schema, fields, validate, pre_load, post_load,  missing
+from marshmallow import validates_schema, ValidationError
 
 
 class NoneIsMissingSchema(Schema):
@@ -50,7 +51,7 @@ class _NER_Channel(Schema):
     city = fields.Str()
     mode = DelimitedList('/', missing='FM')
     callsign = fields.Str()
-    tx_tone = fields.Str()
+    tx_tone = DelimitedList('/')
     rx_tone = fields.Str()
     status = fields.Str()
     county = fields.Str()
@@ -59,8 +60,16 @@ class _NER_Channel(Schema):
     notes = fields.Str()
     date = fields.Str()
 
+    @post_load
+    def clean_tone_post(self, in_data, **kwargs):
+        mode = in_data['mode']
+        tone = in_data.get('tx_tone', [])
+
+        if len(mode) > 1 and len(tone) != len(mode):
+            tone.extend([tone[-1]] * (len(mode) - len(tone)))
+
     @pre_load
-    def clean_tone_fields(self, in_data, **kwargs):
+    def clean_tone_pre(self, in_data, **kwargs):
         for fname in ['rx_tone', 'tx_tone']:
             if fname not in in_data:
                 continue
@@ -75,6 +84,7 @@ class _NER_Channel(Schema):
 
 
 class _Kenwood_Channel(Schema):
+    channel = fields.Int()
     rx_freq = fields.Float(required=True)
     rx_step = fields.Float()
     offset = fields.Float()
