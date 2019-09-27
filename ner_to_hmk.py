@@ -4,11 +4,13 @@ import csv
 import click
 import collections
 import itertools
+import logging
 import sys
 
 import bandplan
 import schema
 
+LOG = logging.getLogger(__name__)
 
 HMK_HEADER = '''KENWOOD MCP FOR AMATEUR MOBILE TRANSCEIVER
 [Export Software]=MCP-2A Version 3.22
@@ -34,13 +36,23 @@ def remove_empty_fields(fields):
 
 
 @click.command()
+@click.option('-v', '--verbose', count=True)
 @click.option('-i', '--input', type=click.File('r'), default=sys.stdin)
 @click.option('-o', '--output', type=click.File('w'), default=sys.stdout)
 @click.option('-b', '--band', multiple=True)
 @click.option('-s', '--state', multiple=True)
 @click.option('-S', '--start-index', default=0)
 @click.option('-m', '--mode', default='fm')
-def main(input, output, band, state, start_index, mode):
+@click.option('--offline', is_flag=True)
+def main(verbose, input, output, band, state, start_index, mode, offline):
+
+    try:
+        loglevel = ['WARNING', 'INFO', 'DEBUG'][verbose]
+    except IndexError:
+        loglevel = 'DEBUG'
+
+    logging.basicConfig(level=loglevel)
+
     output.write(HMK_HEADER)
 
     channel = itertools.count(start_index)
@@ -60,28 +72,37 @@ def main(input, output, band, state, start_index, mode):
             if (errors):
                 for fname, messages in errors.items():
                     for msg in messages:
-                        print('reading {callsign}: {fname}: {msg}'.format(
-                            callsign=row['callsign'],
-                            fname=fname,
-                            msg=msg),
-                              file=sys.stderr)
+                        LOG.error('reading %s: %s: %s',
+                                  row['callsign'], fname, msg)
+                continue
+
+            if ner.get('status') == 'OFF' and not offline:
                 continue
 
             if state:
                 state = [s.lower() for s in state]
                 if ner['state'].lower() not in state:
+                    LOG.info('skipping %s: state %s not in %s',
+                             ner['callsign'], ner['state'].lower(), state)
                     continue
 
             freq_band = bandplan.freq_to_band(ner['rx_freq'])
             if band:
                 band = [b.lower() for b in band]
                 if freq_band.name.lower() not in band:
+                    LOG.info('skipping %s: frequency %0.3f not in %s',
+                             ner['callsign'], ner['rx_freq'], band)
                     continue
 
             if mode:
                 modes = [m.lower() for m in ner['mode']]
                 if mode not in modes:
+                    LOG.info('skipping %s: mode %s not in %s',
+                             ner['callsign'], mode, modes)
                     continue
+
+            LOG.debug('%s: modes: %s',
+                      ner['callsign'], ner['mode'])
 
             tone_mode = 'T' if ner.get('tx_tone') else 'Off'
             if ner['offset'] == '-':
@@ -109,22 +130,16 @@ def main(input, output, band, state, start_index, mode):
             if (errors):
                 for fname, messages in errors.items():
                     for msg in messages:
-                        print('converting {callsign}: {fname}: {msg}'.format(
-                            callsign=row['callsign'],
-                            fname=fname,
-                            msg=msg),
-                              file=sys.stderr)
+                        LOG.error('converting %s: %s: %s',
+                            row['callsign'], fname, msg)
                 continue
 
             row_out, errors = schema.Kenwood_Channel.dump(ken)
             if (errors):
                 for fname, messages in errors.items():
                     for msg in messages:
-                        print('writing {callsign}: {fname}: {msg}'.format(
-                            callsign=row['callsign'],
-                            fname=fname,
-                            msg=msg),
-                              file=sys.stderr)
+                        LOG.error('writing %s: %s: %s',
+                            row['callsign'], fname, msg)
                 continue
 
             row_out['channel'] = next(channel)
