@@ -50,6 +50,11 @@ def format_fields(channel):
             channel[k] = FORMATS[k].format(v)
 
 
+def show_validation_errors(stage, callsign, errors):
+    for fname, messages in errors.items():
+        for msg in messages:
+            LOG.error('%s %s: %s: %s', stage, callsign, fname, msg)
+
 @click.command()
 @click.option('-v', '--verbose', count=True)
 @click.option('-i', '--input', type=click.File('r'), default=sys.stdin)
@@ -82,14 +87,11 @@ def main(verbose, input, output, band, state, start_index, mode, offline):
             list(schema.Kenwood_Channel.declared_fields.keys()))
 
         for row in repeaters:
-            row = remove_empty_fields(row)
-            ner, errors = schema.NER_Channel.load(row)
+            callsign = row['callsign']
+            ner, errors = schema.NER_Channel.load(remove_empty_fields(row))
 
             if (errors):
-                for fname, messages in errors.items():
-                    for msg in messages:
-                        LOG.error('reading %s: %s: %s',
-                                  row['callsign'], fname, msg)
+                show_validation_errors('reading', callsign, errors)
                 continue
 
             if ner.get('status') == 'OFF' and not offline:
@@ -153,18 +155,12 @@ def main(verbose, input, output, band, state, start_index, mode, offline):
                 ))
 
                 if (errors):
-                    for fname, messages in errors.items():
-                        for msg in messages:
-                            LOG.error('converting %s: %s: %s',
-                                row['callsign'], fname, msg)
+                    show_validation_errors('converting', callsign, errors)
                     continue
 
                 row_out, errors = schema.Kenwood_Channel.dump(ken)
                 if (errors):
-                    for fname, messages in errors.items():
-                        for msg in messages:
-                            LOG.error('writing %s: %s: %s',
-                                row['callsign'], fname, msg)
+                    show_validation_errors('writing', callsign, errors)
                     continue
 
                 row_out['channel'] = next(channel)
